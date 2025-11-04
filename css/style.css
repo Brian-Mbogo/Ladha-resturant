@@ -1,0 +1,10 @@
+.hero {
+  background: url('../images/hero.jpg') center/cover no-repeat;
+  height: 80vh;
+}
+.navbar {
+  background-color: goldenrod;
+}
+.text-green {
+  color: red;
+}
