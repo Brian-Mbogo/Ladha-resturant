@@ -1,10 +1,44 @@
-.hero {
-  background: url('../images/hero.jpg') center/cover no-repeat;
-  height: 80vh;
-}
+/* Navbar Background Color */
 .navbar {
   background-color: goldenrod;
 }
 .text-green {
-  color: red;
+  color: rgb(104, 190, 4);
+}
+
+/* Navbar Customization */
+.navbar {
+  background-color: #abd1b1 !important; /* deep red */
+}
+
+/* Button color */
+.btn-primary {
+  background-color: #e63946;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #c62828;
+}
+
+/* Footer */
+footer {
+  background-color: #ccc1c1;
+  color: #cccccc;
+}
+html {
+  scroll-behavior: smooth;
+}
+.hero {
+  background-image: url('../images/hero.jpg'); /* path to your hero image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* full screen height */
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+footer a:hover {
+  color: #ffc107; 
+  text-decoration: none;
 }
